@@ -7,10 +7,10 @@ spellright.dict text eol=crlf
 *.eps  binary
 *.gif  binary
 *.ico  binary
-*.jpg  binary
-*.jpeg binary
+*.jpg  binary filter=lfs diff=lfs merge=lfs
+*.jpeg binary filter=lfs diff=lfs merge=lfs
 *.pdf  binary
-*.png  binary
+*.png  binary filter=lfs diff=lfs merge=lfs
 *.svg  text eol=lf
 *.svgz binary
 *.wbmp binary
@@ -49,3 +49,6 @@ spellright.dict text eol=crlf
 *.otf   binary
 *.woff  binary
 *.woff2 binary
+
+## 3D GRAPHICS
+*.blend binary filter=lfs diff=lfs merge=lfs

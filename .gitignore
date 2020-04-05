@@ -13,3 +13,6 @@ ehthumbs.db
 
 # Folder config file
 [Dd]esktop.ini
+
+# Blender backup file
+*.blend1
